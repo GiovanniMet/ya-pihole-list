@@ -1,9 +1,11 @@
 # EasyList
 https://justdomains.github.io/blocklists/lists/easylist-justdomains.txt
+https://v.firebog.net/hosts/Easylist.txt
 # EasyPrivacy
 https://justdomains.github.io/blocklists/lists/easyprivacy-justdomains.txt
 # AdGuard Filter
 https://justdomains.github.io/blocklists/lists/adguarddns-justdomains.txt
+https://v.firebog.net/hosts/AdguardDNS.txt
 # block coin miners
 https://justdomains.github.io/blocklists/lists/nocoin-justdomains.txt
 # Spotify ads
@@ -30,3 +32,14 @@ https://urlhaus.abuse.ch/downloads/hostfile/
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
 # Ads, Mobile Ads, Phishing, Malvertising, Malware, Spyware, Ransomware, CryptoJacking and some Telemetry, Analytics, Tracking
 https://dbl.oisd.nl/
+# Adaway list
+https://adaway.org/hosts.txt
+# Extra ADS list
+https://v.firebog.net/hosts/Admiral.txt
+https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts
+https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=1&mimetype=plaintext
+https://gist.githubusercontent.com/hkamran80/779019103fcd306979411d44c8d38459/raw/e0f084b396bb8ffcb390c8e7272ae96a6c292d10/SmartTV2.txt
