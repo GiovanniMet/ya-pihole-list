@@ -40,6 +40,10 @@ if [ $update -eq 1 ] ; then
   # update pihole
   echo "Info: Updating Pi-hole"
   pihole updatePihole
+
+  # backup pihole
+  echo "Info: Commit new Pi-hole version to make persistence when boot from ram."
+  lbu commit
 fi
 
 # update gravity table (create or migrate if not exists yet)
