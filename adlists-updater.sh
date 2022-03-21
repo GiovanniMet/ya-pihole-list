@@ -14,7 +14,7 @@ basename="pihole"
 PIHOLE_COMMAND="/usr/local/bin/${basename}"
 piholeDir="/etc/${basename}"
 gravityDBfile="${piholeDir}/gravity.db"
-adListSource="https://raw.githubusercontent.com/JavanXD/ya-pihole-list/master/adlists.list.updater"
+adListSource="https://raw.githubusercontent.com/GiovanniMet/ya-pihole-list/master/adlists.list.updater"
 adListFile="$HOME/adlists.list.updater"
 tmpFile="$HOME/adlists.list.updater.tmp"
 table="adlist"
@@ -34,8 +34,8 @@ fi
 
 if [ $update -eq 1 ] ; then
   # update raspbian
-  echo "Info: Updating Raspbian"
-  apt-get update && apt-get dist-upgrade -y
+  echo "Info: Updating Alpine"
+  apk update && apk upgrade
 
   # update pihole
   echo "Info: Updating Pi-hole"
