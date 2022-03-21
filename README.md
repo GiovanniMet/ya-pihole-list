@@ -1,4 +1,4 @@
-# Yet another Pi-hole list
+# Yet another Pi-hole list for Alpine Linux with boot from RAM
 
 > Actually this project is not 'yet another'. I tried to improve what other projects missed. Also added an auto updater.
 
@@ -41,7 +41,7 @@ Add the argument `1` to your `sudo sh adlists-updater.sh 1` call.
 2. Add this line to make it runs every 12 hour, but you can change it to whatever you like:
 
 	```
-	0 */12 * * * sudo /home/pi/ya-pihole-list/adlists-updater.sh 1 >/dev/null
+	0 */12 * * * sudo /root/ya-pihole-list/adlists-updater.sh 1 >/dev/null
 	```
 
 ## Screenshots
